@@ -1,0 +1,83 @@
+
+
+
+
+.shape1{
+   
+    animation: anima1 3s infinite ease-in-out;
+}
+
+ .hero-dialog-1,.hero-dialog-2 {
+    white-space: nowrap;
+    background-color: #FFFFFF;
+    padding: 5px 30px 10px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.36);
+}
+.hero-dialog-1:after {
+    transform: rotate(45deg);
+    content: '';
+    z-index: 9;
+    bottom: 0;
+    background-color: #FFFFFF;
+    height: 10px;
+    width: 10px;
+}
+.hero-dialog-1 {
+    top: 10%;
+    right: 0;
+    animation: message 0.4s ease-in-out;
+    animation-fill-mode: forwards;
+ 
+}
+.hero-dialog-1 span,.hero-dialog-2 span{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 26px;
+    transform: translateY(5px);
+}
+.hero-dialog-2 {
+    bottom: 10%;
+    left:0;
+    animation: message 0.4s ease-in-out;
+    animation-fill-mode: backwards;
+    
+}
+.hero-dialog-2:after {
+    transform: rotate(45deg);
+    content: '';
+    z-index: 9;
+    bottom: 0;
+    background-color: #FFFFFF;
+    height: 10px;
+    width: 10px;
+}
+
+
+@keyframes anima1 {
+    0% {
+      transform: translateY(0) scale(1);
+    }
+  
+    50% {
+      transform: translateY(-5px) scale(1.05);
+    }
+  
+    0% {
+      transform: translateY(0) scale(1);
+    }
+  }
+  @keyframes message {
+    0% {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

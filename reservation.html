@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Krishna - Reservation</title>
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reservation.css">
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light py-4">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <span class="fs-1 fs-sm-5 fs-md-6 lead">Sri Krishna</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header01"
+                    aria-controls="header01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="header01">
+                    <ul class="navbar-nav ms-auto mt-3 mt-lg-0 mb-3 mb-lg-0 me-4">
+                        <li class="nav-item me-4"><a class="nav-link" href="index.html">Welcome</a></li>
+                        <li class="nav-item me-4"><a class="nav-link" href="menus.html">Menus</a></li>
+                        <li class="nav-item me-4"><a class="nav-link" href="reservation.html">Reservation</a></li>
+                        <li class="nav-item me-4"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                       
+                    </ul>
+                    <div><a class="btn btn-primary primary-core-bg hero-badge border-0" href="contact.html">Contact Us</a></div>
+                   
+
+                </div>
+            </div>
+        </nav>
+    </header>
+   <main class="content-wrap">
+    <section>
+        <div class="container">
+         <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Book a table</h2>
+            </div>
+         </div>
+        </div>
+       
+    </section>
+    <section class="py-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4 offset-lg-4">
+                    <form>
+                        <div class="form-group  mb-3">
+                          <label for="name">Name *</label>
+                          <input type="text" class="form-control custom-padding" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="name">Phone *</label>
+                            <input type="text" class="form-control custom-padding" id="Phone" placeholder="Enter your phonenumber">
+                          </div>
+                        <div class="form-group mb-3">
+                          <label for="email">Email *</label>
+                          <input type="email" class="form-control custom-padding" id="email" placeholder="Enter your email">
+                        </div>
+            
+                        <div class="form-group mb-3">
+                            <label for="message">Day *</label>
+                        <select class="form-select custom-padding" id="daySelect">
+                            <option value="" selected disabled>Select a day</option>
+                            <option value="Monday">Monday</option>
+                            <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thursday">Thursday</option>
+                            <option value="Friday">Friday</option>
+                            <option value="Saturday">Saturday</option>
+                            <option value="Sunday">Sunday</option>
+                          </select>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="message">Hourly *</label>
+                            <select class="form-select custom-padding">
+                                <option value="" selected disabled>Select a time</option>
+                                <option value="noone">12:00 noon</option>
+                                <option value="12:30 PM">12:30 PM</option>
+                                <option value="01:00 PM">01:00 PM</option>
+                                <option value="01:30 PM">01:30 PM</option>
+                                <option value="07:00 PM">07:00 PM</option>
+                                <option value="07:30 PM">07:30 PM</option>
+                                <option value="08:00 PM">08:00 PM</option>
+                                <option value="08:30 PM">08:30 PM</option>
+                                <option value="09:00 PM">09:00 PM</option>
+                              </select>
+                              
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="message">Number of guests *</label>
+                            <select class="form-select custom-padding">
+                                <option value="" selected disabled>Select a Number of guests</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                              </select>
+                              
+                        </div>
+                        <button type="submit" class="btn btn-primary me-2 mb-2 mb-sm-0 hero-badge primary-core-bg border-0 site-btn">Send</button>
+                      </form>
+                      
+
+                </div>
+            </div>
+        </div>
+    </section>
+   </main>
+    <footer class="footer mt-auto">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                  <p class="lead text-muted p-shadow">&copy; 2023 Sri Krishna. All rights reserved.</p>
+                </div>
+              </div>
+        </div>
+    </footer>
+    </body>
+        <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/vendor/@fortawesome/fontawesome-free/js/all.min.js"></script>
+        <script src="./assets/js/style.js"></script>
+     
+       
+    </html>
