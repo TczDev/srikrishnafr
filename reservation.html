@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Krishna - RÉSERVATION</title>
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reservation.css">
+    <link rel="stylesheet" href="./assets/css/menus.css">
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light py-4">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <!-- <span class="fs-1 fs-sm-5 fs-md-6 lead">Sri Krishna</span> -->
+                    <img src="./assets/image/Sri Krishna Logo.png" class="logo"  alt="logo"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header01"
+                    aria-controls="header01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="header01">
+                    <ul class="navbar-nav ms-auto mt-3 mt-lg-0 mb-3 mb-lg-0 me-4">
+                        <li class="nav-item me-4"><a class="nav-link" href="index.html">ACCUEIL</a></li>
+                        <li class="nav-item me-4"><a class="nav-link" href="menus.html">MENUS</a></li>
+                        <li class="nav-item me-4"><a class="nav-link" href="reservation.html">RÉSERVATION</a></li>
+                        <li class="nav-item me-4"><a class="nav-link" href="gallery.html">GALERIE</a></li>
+                       
+                    </ul>
+                    <div><a class="btn btn-primary primary-core-bg hero-badge border-0" href="contact.html">CONTACTEZ-NOUS</a></div>
+                   
+
+                </div>
+            </div>
+        </nav>
+    </header>
+   <main class="content-wrap">
+    <section>
+        <div class="container">
+         <div class="row">
+          
+            <div class="d-flex flex-column align-items-center">
+                <img src="./assets/image/title-shape.png" alt="title-image"/>
+                <h2 class="title mt-3 mb-5">Réservez une table</h2>
+            </div>
+         </div>
+        </div>
+       
+    </section>
+    <section class="py-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4 offset-lg-4">
+                    <form>
+                        <div class="form-group  mb-3">
+                          <label for="name">Nom *</label>
+                          <input type="text" class="form-control custom-padding" id="name" placeholder="Entrez votre nom">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="name">Téléphone *</label>
+                            <input type="text" class="form-control custom-padding" id="Phone" placeholder="Entrez votre numéro de téléphone">
+                          </div>
+                        <div class="form-group mb-3">
+                          <label for="email">E-mail *</label>
+                          <input type="email" class="form-control custom-padding" id="email" placeholder="Entrer votre Email">
+                        </div>
+            
+                        <div class="form-group mb-3">
+                            <label for="message">Jour *</label>
+                        <select class="form-select custom-padding" id="daySelect">
+                            <option value="" selected disabled>Sélectionnez un jour</option>
+                            <option value="Monday">Lundi</option>
+                            <option value="Tuesday">Mardi</option>
+                            <option value="Wednesday">Mercredi</option>
+                            <option value="Thursday">Jeudi</option>
+                            <option value="Friday">Vendredi</option>
+                            <option value="Saturday">Samedi</option>
+                            <option value="Sunday">Dimanche</option>
+                          </select>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="message">Horaire *</label>
+                            <select class="form-select custom-padding">
+                                <option value="" selected disabled>Sélectionnez une heure</option>
+                                <option value="noone">12h00</option>
+                                <option value="12:30 PM">12h30</option>
+                                <option value="01:00 PM">13h00</option>
+                                <option value="01:30 PM">13h30</option>
+                                <option value="07:00 PM">19h00</option>
+                                <option value="07:30 PM">19h30</option>
+                                <option value="08:00 PM">20h00</option>
+                                <option value="08:30 PM">20h30 PM</option>
+                                <option value="09:00 PM">21h00 PM</option>
+                              </select>
+                              
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="message">Nombre de couverts *</label>
+                            <select class="form-select custom-padding">
+                                <option value="" selected disabled>Sélectionnez un nombre d'invités</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                              </select>
+                              
+                        </div>
+                        <button type="submit" class="btn btn-primary me-2 mb-2 mb-sm-0 hero-badge primary-core-bg border-0 site-btn">Envoyer</button>
+                      </form>
+                      
+
+                </div>
+            </div>
+        </div>
+    </section>
+   </main>
+    <footer class="footer mt-auto">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                  <p class="lead text-muted p-shadow">&copy; 2023 Sri Krishna. Tous les droits sont réservés.</p>
+                </div>
+              </div>
+        </div>
+    </footer>
+    </body>
+        <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/vendor/@fortawesome/fontawesome-free/js/all.min.js"></script>
+        <script src="./assets/js/style.js"></script>
+     
+       
+    </html>

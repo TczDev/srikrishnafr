@@ -1,0 +1,312 @@
+.aperitf-bg{
+	background-image: url("../image/menus-images/cocktail1.jpg");
+	filter: brightness( 80% ) contrast( 150% ) saturate( 130% ) blur( 0px ) hue-rotate( 0deg );
+
+}
+.menu-card{
+	background-size: cover;
+	background-position: center;
+}
+
+
+.bieres-bg{
+	background-image: url("../image/menus-images/beers.jpg");
+
+}
+.lassy-bg{
+	background-image: url("../image/menus-images/lassi.jpg");
+	
+}
+
+.dessert-bg{
+	background-image: url("../image/menus-images/dessert.jpg");
+	background-size: cover;
+	
+}
+
+.fruit-bg{
+	background-image: url("../image/menus-images/fruitjuice.jpg");
+	
+}
+
+.digistive-bg{
+	background-image: url("../image/menus-images/digistive.jpg");
+}
+
+
+.liquid-bg{
+	background-image: url("../image/menus-images/liquid.jpg");
+	
+}
+.thandoori-bg{
+	background-image: url("../image/menus-images/thandoori.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+
+.title{
+	font-family: 'Cinzel Decorative', cursive;
+		font-size: 32px;
+	
+	font-weight: bold;
+}
+
+.chicken-bg{
+	background-image: url("../image/menus-images/chicken.jpeg");
+}
+
+.seafood-bg{
+	background-image: url("../image/menus-images/seafood.jpg");
+}
+
+.lamb-bg{
+	background-image: url("../image/menus-images/lamb.jpg");
+}
+.salads-bg{
+	background-image: url("../image/menus-images/salads.jpg");
+}
+
+.veg-bg{
+	background-image: url("../image/menus-images/veg-samosa.jpg");
+}
+
+.gulab-bg{
+	background-image: url("../image/menus-images/gulab.jpg");
+}
+
+.briyani-bg{
+	background-image: url("../image/menus-images/briyani.jpg");
+	background-size: cover;
+}
+
+.kashmir-thali-bg{
+	background-image: url("../image/menus-images/kashmir-thali.jpeg");
+}
+
+.menu-card-1{
+	background-size: cover;
+	color: #000;
+}
+
+.nan-bg{
+	background-image: url("../image/menus-images/nan.jpeg");
+}
+
+.rice-bg{
+	background-image: url("../image/menus-images/rice.jpeg");
+	background-size: cover;
+}
+
+.redwine-bg{
+	background-image: url("../image/menus-images/redwine.jpeg");
+}
+
+.pinkwine-bg{
+	background-image: url("../image/menus-images/wine.jpg");
+	background-size: cover;
+}
+
+.whitewine-bg{
+	background-image: url("../image/menus-images/whitewine.jpg");
+}
+
+.prawn-bg{
+	background-image: url("../image/menus-images/prawn.jpeg");
+
+}
+
+.fish-bg{
+	background-image: url("../image/menus-images/fish.jpeg");
+
+}
+
+.chicken-masala-bg{
+	background-image: url("../image/menus-images/chicken-masala.jpeg");
+
+}
+.lamb-masala-bg{
+	background-image: url("../image/menus-images/lamb-masala.jpeg");
+
+}
+
+.vegetable-curry-bg{
+	background-image: url("../image/menus-images/vegetable-curry.jpeg");
+
+}
+
+.beef-masala-bg{
+	background-image: url("../image/menus-images/beef-masala.jpg");
+
+}
+.madras-thali-bg{
+	background-image: url("../image/menus-images/madras-thali.jpeg");
+
+}
+
+.vegetable-thali{
+	background-image: url("../image/menus-images/thali-vegetable.jpeg");
+
+}
+
+.bombay-thali-bg{
+	background-image: url("../image/menus-images/thali-bombay.jpeg");
+
+
+}
+
+.delhi-thali-bg{
+	background-image: url("../image/menus-images/thali-delhi.png");
+
+}
+
+.student-thali-bg{
+	background-image: url("../image/menus-images/student-menu.jpeg");
+
+}
+
+.student-menu-bg{
+	background-image: url("../image/menus-images/menu-student.jpeg");
+
+}
+
+.menu-bg{
+	background-image: url("../image/menus-images/menu.jpeg");
+
+}
+.menu1-bg{
+	background-image: url("../image/menus-images/menu-1.jpg");
+
+}
+
+.menu2-bg{
+	background-image: url("../image/menus-images/menu-2.jpg");
+
+}
+
+
+
+
+#dLabel {
+    width: 240px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: solid 1px #cccccc;
+  text-align: left;
+  padding: 7.5px 15px;
+  color: #ccc;
+  letter-spacing: 0.7px;
+  margin-top: 25px;
+  
+ 
+}
+
+ .caret {
+    float: right;
+    margin-top: 9px;
+    display: block;
+  }
+
+.dropdown-menu {
+  width: 240px;
+  padding: 0;
+  margin: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.dropdown button:hover, .dropdown button:focus {
+  border: none;
+  outline: 0;
+}
+
+.dropdown.open button#dLabel {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+ 
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+  border: solid 1px #666;
+   border-bottom: none;
+}
+
+.dropdown.open ul {
+   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+  border: solid 1px #666;
+  border-top: none;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.dropdown-menu li {
+  line-height: 1.5;
+  letter-spacing: 0.7px;
+  color: #666;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 7.5px 15px;
+  border-top: solid 1px #f3f3f3;
+}
+
+.dropdown-menu li:hover {
+  background-color: #ccc;
+}
+
+.card-hover:hover{
+	font-weight: bolder;
+	color: #000;
+	
+}
+  
+.each-drop:hover{
+	background-color: rgb(243, 217, 170) !important;
+}
+.each-drop{
+	height: 40px;
+	width: 269px;
+	padding-bottom: 40px !important;
+}
+
+@media screen and (min-width:768px) {
+	.each-drop{
+		height: 40px;
+		width: 299px;
+	}
+
+	
+}
+
+.drop-container{
+	width: fit-content;
+}
+
+.bg-card{
+	background: linear-gradient(360deg, rgb(233, 234, 236) 19%, rgb(227, 206, 143) 66%) !important;
+
+}
+
+.width-heading{
+	width: 150px;
+}
+
+.width-price{
+	width: 80px;
+	font-size: 16px !important;
+}
+
+.width-card-price{
+	min-width: 172px;
+
+}
+
+@media screen and (max-width:768px) {
+	.width-card-price{
+		width: 149px;
+	}
+	
+}
+
+.img{
+	object-fit: cover;
+}

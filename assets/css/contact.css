@@ -1,0 +1,17 @@
+.address, .contact-info {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .address h3, .contact-info h3 {
+    margin-top: 0;
+  }
+  
+  .address p, .contact-info p {
+    margin-bottom: 10px;
+  }
+  .custom-padding {
+    padding: 10px 15px;
+  }
+
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Krishna - Home</title>
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+</head>
+<body onload="audioFunction()" >
+      <audio autoplay loop id="my_audio">
+        <source src="./assets/audio/Krishna Flute.mp3"  type="audio/wav" />
+      </audio>
+      <!-- <div id="sound-permission-message" >
+        Please enable sound to experience the full functionality of this website.
+        <button id="request-sound-permission-button">Enable Sound</button>
+      </div> -->
+    <header class="sticky-top header">
+       
+        <nav class="navbar navbar-expand-lg navbar-light py-4">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <!-- <span class="fs-1 fs-sm-5 fs-md-6 lead">Sri Krishna</span> -->
+                    <img src="./assets/image/Sri Krishna Logo.png" class="logo"  alt="logo"/>
+                    
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header01"
+                    aria-controls="header01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="header01">
+                    <ul class="navbar-nav ms-auto mt-3 mt-lg-0 mb-3 mb-lg-0 me-4">
+                        <li class="nav-item me-4"><a class="nav-link" href="index.html">ACCUEIL</a></li>
+                        <li class="nav-item me-4"><a class="nav-link" href="menus.html">MENUS</a></li>
+                        <li class="nav-item me-4"><a class="nav-link" href="reservation.html">RÉSERVATION</a></li>
+                        <li class="nav-item me-4"><a class="nav-link" href="gallery.html">GALERIE</a></li>
+                       
+                    </ul>
+                    <div><a class="btn btn-primary primary-core-bg hero-badge border-0" href="contact.html">CONTACTEZ-NOUS</a></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+   <main class="content-wrap">
+    <embed src="" loop="true" id="my_audio" autostart="true" width="1"
+    height="0">
+    <!-- <audio src="./assets/audio/Krishna Flute.mp3" id="my_audio" ></audio> -->
+    <audio src="./assets/audio/Krishna Flute.mp3"></audio>
+    
+    <section class="hero-section vh-lg-80 d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 mb-lg-0">
+
+                    <span class="bg-white p-1 rounded hero-badge mb-1 px-2 text-muted">Salut, nouvel ami !</span>
+                  <h2 class="display-4 fw-bold mb-4">Le Sri Krishna vous accueille en plein coeur de La Rochelle</h2>
+                  <p class="lead text-muted mb-4 p-shadow">Jamais voyagé en Inde? Pas d'inquiétude, Sri Krishna vous y emportera avec sa cuisine!</p>
+                  <div class="d-flex flex-wrap">
+                    <a class="btn btn-primary me-2 mb-2 mb-sm-0 hero-badge primary-core-bg border-0 site-btn" href="reservation.html"><i class="fa-solid fa-champagne-glasses"></i> Réserve</a>
+                    <a class="btn btn-secondary mb-2 mb-sm-0 hero-badge site-btn" href="menus.html"><i class="fa-solid fa-utensils"></i> Voir notre menu</a>
+                    <a class="btn btn-primary  mb-2 mb-sm-0 ms-2 hero-badge site-btn " id="play" onclick="play()" > <i class="fa-solid fa-music"></i> </a>
+                    <a class="btn btn-primary  mb-2 mb-sm-0 ms-2 hero-badge site-btn"  id="pause" onclick="pause()" > <i class="fa-solid fa-pause"></i> </a>
+                </div>
+
+
+                </div>
+                <div class="col-12 col-lg-6 position-relative">
+                  <img class="img-fluid shape1" src="./assets/image/Thandhoori.png" alt="">
+                
+                  <div class="hero-dialog-1 position-absolute z-1"><span>😋</span> Om-nom-nom...</div>
+                  <div class="hero-dialog-2 position-absolute z-1 dialog-2"><span>🥰</span> Tellement délicieux !</div>
+                </div>
+                
+              </div>
+        </div>
+       
+       
+    </section>
+   </main>
+    <footer class="footer mt-auto">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+              <p class="lead text-muted p-shadow">&copy; 2023 Sri Krishna. Tous les droits sont réservés.</p>
+            </div>
+          </div>
+    </div>
+</footer>
+</body>
+    <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/vendor/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <script src="./assets/js/style.js">
+
+    </script>
+    
+   
+</html>
