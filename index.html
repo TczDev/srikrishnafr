@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/vendor/bootstrap-cookie-alert/cookiealert.css">
 </head>
 <body onload="audioFunction()" >
       <audio autoplay loop id="my_audio">
@@ -89,12 +90,20 @@
           </div>
     </div>
 </footer>
+<div class="alert text-center cookiealert" role="alert">
+    <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="http://cookiesandyou.com/" target="_blank">Learn more</a>
+
+    <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+        I agree
+    </button>
+</div>
 </body>
     <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/vendor/@fortawesome/fontawesome-free/js/all.min.js"></script>
     <script src="./assets/js/style.js">
 
     </script>
+        <script src="./assets/vendor/bootstrap-cookie-alert/cookiealert.js"></script>
     
    
 </html>
