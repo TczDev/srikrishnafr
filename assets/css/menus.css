@@ -5,6 +5,9 @@
 .menus  dd{
 	text-transform: lowercase;
 }
+.menus .card div>h5{
+	font-family: 'Merienda';
+}
 .menus  dd::first-letter {
 	text-transform: uppercase;
 }
