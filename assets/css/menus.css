@@ -1,3 +1,13 @@
+.menus h5{
+	text-transform: uppercase;
+	
+}
+.menus  dd{
+	text-transform: lowercase;
+}
+.menus  dd::first-letter {
+	text-transform: uppercase;
+}
 .aperitf-bg{
 	background-image: url("../image/menus-images/cocktail1.jpg");
 	filter: brightness( 80% ) contrast( 150% ) saturate( 130% ) blur( 0px ) hue-rotate( 0deg );
