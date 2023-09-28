@@ -8,6 +8,7 @@
 }
 .menus dd{
 	text-transform: lowercase;
+	font-weight: 500;
 }
 .menus dd::first-letter {
   text-transform: capitalize; 
