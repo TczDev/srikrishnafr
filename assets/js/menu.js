@@ -15,7 +15,12 @@ $(document).ready(function() {
       history.pushState(null, null, newUrl);
   
       // Also update localStorage
-      localStorage.setItem("category", clickedTabId);
+      var urlParams = new URLSearchParams(window.location.search);
+      console.log(urlParams)
+      var activeTabId = urlParams.get("category") || "#Menus";
+      // Activate the tab based on the stored tab ID
+      $('#pills-tabContent').find('.tab-pane').removeClass('show active');
+      $(activeTabId).addClass('show active');
     });
   });
   
